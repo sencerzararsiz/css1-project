@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İmages | cssproject1</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<!-- navbar-start -->
+  <nav class="menu"> 
+    <a href="/01DERS/css/cssproject1/Anasayfa.html" target="_blank" >Home Page</a>
+    <a href="/01DERS/css/cssproject1/İmages.html" >İmages</a>
+    <a href="/01DERS/css/cssproject1/contact.html" target="_blank">Contact</a>
+  </nav>
+<!-- navbar-end -->
+  <br><br>
+<!-- sekme başlığı değişim -->
+  <script>
+    let baslik = document.title;
+    window.onblur = () =>
+    document.title = "Geri gel :(";
+    window.onfocus = () =>
+    document.title = baslik;
+  </script>
+<!-- main content start -->
+   <div class="jameswebb">
+      <article style="background-image: url(/kodluyoruz-frontend-101-egitimi-main/images/jamess\ web.jpg);"></article>
+      <article style="background-image: url(/kodluyoruz-frontend-101-egitimi-main/images/james\ web2.jps.png);"></article>
+      <article style="background-image: url(/kodluyoruz-frontend-101-egitimi-main/images/jamesweb3.jpg);"></article>
+      <article style="background-image: url(/kodluyoruz-frontend-101-egitimi-main/images/jameswebb4.jpg);"></article>
+   </div>
+</body>
+</html>

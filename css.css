@@ -1,0 +1,77 @@
+
+
+/****************** hover-menu ******************/
+
+
+
+
+body {
+  background-color: #7B8FA1;
+  font-family: 'Poppins', sans-serif;
+}
+.menu {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.menu > a {
+  text-decoration: none;
+  color: #D7E9B9;
+}
+
+.menu > a::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 0%;
+  transition: all .4s;
+  border-bottom: 2px solid black;
+}
+
+.menu > a:hover::after {
+
+  width: 100%;
+}
+
+
+ /************* esnek resim **************/
+
+ .jameswebb {
+   display: flex;
+   height: 20rem;
+   gap: 1rem
+ }
+ .jameswebb > article {
+   flex: 1;
+   border-radius: 1rem;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: auto 100%;
+   transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+ }
+ .jameswebb > article:hover {
+   flex: 5;
+ }
+
+
+
+ body {
+   background-color: #16213E;
+   max-width: 900px;
+   margin: 1rem auto;
+ }
+
+
+/************text settings **************/
+
+h1,h2,h3,h4,h5,h6,p,a,li{
+  color: #D7E9B9;
+  text-align: center;
+}
+
+
+
+
+
+
